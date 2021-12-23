@@ -1,0 +1,37 @@
+/* *{
+  margin: 0;
+  padding: 0;
+} */
+
+.req::after{ content:"*";
+color: red; }
+body {
+  background-color: rgb(124, 158, 202);
+  color: rgb(15, 15, 15);
+}
+
+h1 {
+  color: rgb(7, 7, 7);
+  text-align: center;
+}
+#jay {
+  background-color: royalblue;
+}
+#qq {
+  display: inline;
+  width: auto;
+  height: auto;
+  /* background-image: url(QWE.jpg); */
+  font-family: verdana;
+  border: 2px solid red;
+  font-size: 10px;
+  background-size: contain;
+}
+/* *{
+        margin: 0;
+        padding: 0;
+      } */
+.hello {
+  background-color: rgb(255, 0, 55);
+  color: rgb(3, 3, 3);
+}

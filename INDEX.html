@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="jay.css" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+  </head>
+  <body>
+    <!-- <h1>javascript</h1>
+    <div>
+      <p id="q">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius, quos.
+      </p>
+      <p id="qq">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius, quos.
+      </p>
+      <br>
+      <p id="qq">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius, quos.
+      </p>
+      <p id="q">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius, quos.
+      </p>
+    </div>
+    <div>
+      <p>there is a <span style="color: red">red</span> ball</p>
+      <p id="jay">
+        there is a <span style="color: rgb(50, 82, 14)">red</span> ball
+      </p>
+      <br />
+      <p>
+        there is a
+        <span style="color: rgb(145, 38, 38)">
+          <i>
+            <b>
+              <strong> <em> RED </em> </strong>
+            </b>
+          </i>
+        </span>
+        ball
+      </p>
+      <p style="font-size: large">
+        there is a <span style="color: green">red </span> ball
+      </p>
+      <p class="hello"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum quaerat, minima, obcaecati provident eveniet iusto voluptatum nesciunt fugiat molestias iure atque sit nobis minus doloribus! Voluptate culpa enim ad rerum quia, inventore fuga voluptates doloribus minus eius quas, itaque voluptatum maxime sed odio libero in?
+      </p>
+    </div> -->
+
+    <h1>New Joining Form of Latitude Technolabs Pvt Ltd</h1>
+    <form id="myForm" style="text-align: center" onsubmit="return myfunc();">
+      <label for="fname" class="req"> First Name:</label> <br />
+      <input
+        class="thisclass"
+        type="text"
+        id="fname"
+        name="fname"
+        placeholder="enter your detail"
+        required
+      />
+      <br />
+
+      <br />
+      <label for="lname" class="req"> Last Name:</label> <br />
+      <input
+        class="thisclass"
+        type="text"
+        id="lname"
+        name="lname"
+        placeholder="enter your detail"
+        required
+      />
+      <br />
+      <br />
+      <label for="email" class="req">Enter your email:</label> <br />
+      <input
+        class="thisclass"
+        type="email"
+        id="email"
+        name="email"
+        placeholder="enter your detail"
+        required
+      />
+      <br />
+      <br />
+      <label for="pwd" class="req">Password:</label> <br />
+      <input
+        class="thisclass"
+        type="password"
+        id="pwd"
+        name="pwd"
+        minlength="8"
+        placeholder="enter your detail"
+        required
+      /><br />
+      <br />
+      <input type="submit" name="submit" />
+      <br />
+      <input
+        type="button"
+        class="req"
+        onclick="myFunction()"
+        value="Reset form"
+      />
+    </form>
+
+    <!-- <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab sed nam saepe
+      labore fugit debitis blanditiis consequatur vero distinctio, dignissimos
+      eum explicabo praesentium cupiditate laudantium, exercitationem at
+      accusamus, corporis perferendis asperiores molestias voluptas!
+      Perspiciatis facere in quaerat necessitatibus numquam, voluptas, nemo
+      cupiditate laudantium unde illo assumenda, vel aspernatur dolor minima! &#8592
+    </p>
+    <a href="https://www.google.com" target="blank">
+      <img
+        src="images (4).jfif"
+        alt=" google "
+      />
+    </a>
+<div>
+  <h1>What is Computer</h1>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic molestias voluptatibus recusandae porro tempore numquam ipsam tenetur distinctio, non sequi animi. Placeat consequuntur aspernatur exercitationem repellendus. Deserunt quis similique mollitia aut fugit nulla nobis consequatur autem hic molestiae cum sit tempore sapiente, excepturi ducimus unde ab reprehenderit quia. Molestias, explicabo.</p>
+</div>
+<div>
+  <h1>What is CPU</h1>
+  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio, magni. Alias, impedit exercitationem laudantium ducimus deleniti sapiente minus odit accusamus.</p>
+</div>
+
+
+  </body>
+
+</html> -->
+    <script>
+      function myfunc() {
+        let thisclass = document.getElementsByClassName("thisclass");
+        console.log(thisclass);
+        console.log(
+          document.getElementById("fname").value,
+          document.getElementById("lname").value,
+          document.getElementById("email").value,
+          document.getElementById("pwd").value
+        );
+        // console.log(document.getElementById("lname").value);
+        // console.log(document.getElementById("email").value);
+        // console.log(document.getElementById("pwd").value);
+
+        return false;
+      }
+    </script>
+    <form
+      name="contact-form"
+      action="formprocess.php"
+      method="post"
+      target="ninja-frame"
+    ></form>
+    <script>
+      function myFunction() {
+        document.getElementById("myForm").reset();
+      }
+      </script>
+    <footer>
+      <p style="text-align: center">copyright &copy;</p>
+    </footer>
+  </body>
+</html>
